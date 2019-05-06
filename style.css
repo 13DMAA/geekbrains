@@ -1,0 +1,157 @@
+body {
+    background-color: #f8f8f8;
+    /*цвет фона для страницы*/
+    /*border:1px dashed green;/*Рамка (только для разработки)*/
+}
+
+.main_menu {
+    /*Вход в список меню*/
+    list-style-type: none;
+    /*Убрать маркеры из списка*/
+    /*list-style-position:inside;
+    /*border:1px solid red;/*Рамка (только для разработки)*/
+    width: 10%;
+    /*Ширина*/
+    padding: 0 0 0 0;
+    /*Поля*/
+    margin: 0 0 0 0;
+    /*Отступы верх право низ лево*/
+    text-align: left;
+}
+
+#menu_title {
+    /*Заголовок меню*/
+    width: 100px;
+    color: black;
+    /*Цвет*/
+    font: normal 20px Brush Script MT, Brush Script Std, cursive;
+    /*Шрифт текста*/
+    border: 1px dotted black;
+    /*Рамка вокруг текста*/
+    margin: 0 0 0 0;
+    /*Отступы*/
+    text-align: center;
+}
+
+.menu {
+    /*Список ссылок*/
+    width: 120px;
+    list-style-type: none;
+    /*Убрать маркеры из списка*/
+    /*border:1px solid red;/*Рамка (только для разработки)*/
+}
+
+.menu li {
+    /*Список ссылок меню*/
+    background: linear-gradient(to right, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    margin: 2px 0 0 5px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.menu li a {
+    /*Ссылки в списке*/
+    width:100%;
+    text-decoration: none;
+    /*Убрать подчеркивание ссылок в списке*/
+    color: wheat;
+    font: normal 20px Verdana;
+}
+
+.menu li:first-child:hover {}
+
+.menu li:first-child a:hover {
+    color: white;
+    background: linear-gradient(to left, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+}
+
+.product h1,
+h2 {
+    /*Заголовки страниц товаров(class="product")*/
+    background-color: #eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product .text_kot {
+    /*Текст краткого описания товаров*/
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product .text_pot {
+    /*Текст подробного описания товаров*/
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product .list_prod_har {
+    /*Список характеристик товара*/
+    list-style-image: url(catalog/images/v20x20.png);
+}
+
+.product .list_prod_har_I {
+    /*Список характеристик товара*/
+    list-style-type: upper-roman;
+}
+
+.product .list_prod_har,
+.list_prod_har_I li {
+    color: black;
+    font: bold italic 16px Arial;
+}
+
+.product img {
+    border: 1px solid green;
+}
+
+#contacts_name,
+#contacts_email,
+#contacts_theme {
+    width: 60%;
+    text-align: right;
+}
+
+/*form{
+    text-align: right;
+}*/
+.contacts input[type="text"],
+select {
+    margin: 0 0 0 2%;
+    text-align: left;
+    width: 30%;
+    height: 20px;
+    color: darkgreen;
+    font-size: 13px;
+}
+
+#contacts_text_mail {
+    text-align: center;
+}
+
+.contacts textarea {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+#name_shop,
+#text_welcome {
+    text-align: center;
+    color: darkcyan;
+    font-family: fantasy;
+}
+
+#text_welcome {
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+
+.center {
+    text-align: center;
+}
