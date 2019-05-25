@@ -607,7 +607,7 @@ border: 1.0px solid #d9dee1;
 
 .end {
     margin-top: 69px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .copy h4 {
